@@ -1,23 +1,17 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import NumbersPage from './components/pages/NumbersPage.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
-    <TheWelcome />
+    <NumbersPage />
   </main>
 </template>
 
 <style scoped>
+main{
+  width: 100%;
+}
 header {
   line-height: 1.5;
 }
